@@ -1,0 +1,91 @@
+body {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+.container {
+  background-color: rgba(253, 251, 255, 0.822);
+  height: 100%;
+  width: 800px;
+  border-radius: 50px;
+  margin: 30px auto;
+  padding: 0px 0px 40px 0px;
+}
+
+h3 {
+  font-size: 40px;
+  text-align: center;
+  color: purple;
+  padding-top: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 20px 50px;
+  list-style-type: none;
+  font-size: 17px;
+  margin: 20px 0px;
+  background-color: #f5e5f8;
+  color: purple;
+}
+
+ul li:hover {
+  background: rgb(255, 255, 255);
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 20px 50px;
+}
+
+.close:hover {
+  color: black;
+}
+
+.to-do {
+  padding: 10px 20px 20px 20px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Input */
+#input {
+  border: none;
+  width: 60%;
+  padding: 10px 20px;
+  font-size: 17px;
+}
+
+.btn {
+  font-size: 17px;
+  cursor: pointer;
+}
+
+/* Add button  */
+#add,
+#remove {
+  border: 1px solid purple;
+  padding: 10px 20px;
+  background-color: #f5e5f8;
+  color: purple;
+}
+
+#add:hover,
+#remove:hover {
+  background-color: purple;
+  color: #f5e5f8;
+}
